@@ -3,7 +3,7 @@ class Word:
         self.name = name
         self.word_type = word_type
         self.usage_rank= usage_rank
-        self.superlative - superlative
+        self.superlative = superlative
 
 
     def has_superlative(self):
@@ -15,4 +15,5 @@ class Word:
     def __repr__(self):
         return self.name
     
+
         pass
